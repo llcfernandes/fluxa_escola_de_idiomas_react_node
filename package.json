@@ -1,0 +1,13 @@
+{
+  "name": "fluxa",
+  "version": "2.0.0",
+  "description": "Fluxa — Escola de idiomas full-stack. Developed by Lucas Fernandes — Fernandes Web Studio",
+  "private": true,
+  "scripts": {
+    "install:all":   "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend":   "cd backend && npm run dev",
+    "dev:frontend":  "cd frontend && npm run dev",
+    "test:backend":  "cd backend && npm test",
+    "test:frontend": "cd frontend && npm test"
+  }
+}

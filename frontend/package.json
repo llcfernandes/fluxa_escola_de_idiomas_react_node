@@ -1,0 +1,40 @@
+{
+  "name": "fluxa-frontend",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev":     "vite",
+    "build":   "tsc && vite build",
+    "preview": "vite preview",
+    "test":    "vitest run",
+    "test:watch": "vitest",
+    "lint":    "eslint src --ext ts,tsx"
+  },
+  "dependencies": {
+    "axios":              "^1.7.2",
+    "framer-motion":      "^11.3.8",
+    "lucide-react":       "^0.400.0",
+    "react":              "^18.3.1",
+    "react-dom":          "^18.3.1",
+    "react-hook-form":    "^7.52.1",
+    "react-router-dom":   "^6.24.1",
+    "styled-components":  "^6.1.12",
+    "i18next":            "^23.12.2",
+    "react-i18next":      "^14.1.3"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom":   "^6.4.6",
+    "@testing-library/react":      "^16.0.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/react":                "^18.3.3",
+    "@types/react-dom":            "^18.3.0",
+    "@types/styled-components":    "^5.1.34",
+    "@vitejs/plugin-react":        "^4.3.1",
+    "@vitest/coverage-v8":         "^1.6.0",
+    "jsdom":                       "^24.1.1",
+    "typescript":                  "^5.5.3",
+    "vite":                        "^5.3.4",
+    "vitest":                      "^1.6.0"
+  }
+}
