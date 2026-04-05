@@ -87,22 +87,6 @@ fluxa/
         ├── Dashboard.tsx       ← Com cursos matriculados + link para praticar
         └── NotFound.tsx
 ```
-
----
-
-## 🎨 Design System
-
-| Token | Valor | Uso |
-|---|---|---|
-| `primary.500` | `#0066FF` | Cobalto elétrico — ação, links, brand |
-| `accent.500` | `#00E5A0` | Verde elétrico — sucesso, fase "Aplicar" |
-| `bg.dark` | `#0A0A0F` | Carbono — hero, footer, auth |
-| Display | Clash Display | Headings com caráter geométrico único |
-| Body | DM Sans | Texto fluído e legível |
-| Mono | DM Mono | Exercícios e código |
-
----
-
 ## 🔐 Segurança
 
 - JWT access (7d) + refresh token (30d) com renovação automática
