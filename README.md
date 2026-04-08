@@ -2,8 +2,6 @@
 
 > Aplicação full-stack moderna. React + TypeScript + Styled-Components · Node.js + Express + JWT
 
-**Desenvolvido por Lucas Fernandes — Fernandes Web Studio**
-
 ---
 
 ## 🎯 O que é a Fluxa
